@@ -16,6 +16,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
 }
 
 dependencies {
@@ -25,4 +26,28 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}
+
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'Nice-Android-Animation'
+
+    publishedGroupId = 'com.abuqauod.animation'
+    libraryName = 'Nice-Android-Animation'
+    artifact = 'Nice-Android-Animation'
+
+    libraryDescription = 'A wrapper for Facebook Native Like Button (LikeView) on Android'
+
+    siteUrl = 'https://github.com/abuqauod/NiceAndroidAnimation/'
+    gitUrl = 'https://github.com/abuqauod/NiceAndroidAnimation.git'
+
+    libraryVersion = '1.0'
+
+    developerId = 'AbuQauod'
+    developerName = 'Mohammad AbuQauod'
+    developerEmail = 'mqauod@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
 }
