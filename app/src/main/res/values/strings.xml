@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Nice-Android-Animation</string>
+    <string name="rotation">Rotation</string>
+    <string name="flip">Flip</string>
+    <string name="shake">Shake</string>
+    <string name="pulse">Pulse</string>
+    <string name="cancel">Cancel</string>
+</resources>
