@@ -29,7 +29,7 @@ dependencies {
 }
 
 ext {
-    bintrayRepo = 'maven'
+    bintrayRepo = 'Nice-Android-Animation'
     bintrayName = 'Nice-Android-Animation'
 
     publishedGroupId = 'com.abuqauod.animation'
