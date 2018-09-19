@@ -29,14 +29,16 @@ dependencies {
 }
 
 ext {
-    bintrayRepo = 'Nice-Android-Animation'
+    bintrayRepo = 'maven'
     bintrayName = 'Nice-Android-Animation'
 
     publishedGroupId = 'com.abuqauod.animation'
     libraryName = 'Nice-Android-Animation'
     artifact = 'Nice-Android-Animation'
 
-    libraryDescription = 'A wrapper for Facebook Native Like Button (LikeView) on Android'
+    libraryDescription = 'This is a library that contains practical animations: Rotation, Flip, Horizontal and Vertical Shake, Pulse.\n' +
+            '\n' +
+            'Designed simply and elegant these components are easy to integrate during development process'
 
     siteUrl = 'https://github.com/abuqauod/NiceAndroidAnimation/'
     gitUrl = 'https://github.com/abuqauod/NiceAndroidAnimation.git'
